@@ -1,0 +1,77 @@
+//Анимация которая поднимает кнопку на 5px наверх.
+@keyframes BtnToUp
+    0%
+        opacity: 0
+        transform: translateY(5rem)
+    
+    100%
+        opacity: 1
+        transform: translateY(0)     
+
+// Анимация с верхну в низ
+@keyframes UpToBotom
+    0%
+        opacity: 0
+        transform: translateY(-10rem)
+    80%
+        transform: translateY(1rem)
+    
+    
+    100%
+        opacity: 1
+        transform: translateY(0)
+
+
+//Анимация которая двигает текст слева направо.
+@keyframes leftToRight
+    0%
+        opacity: 0
+        transform: translateX(-10rem)
+    80%
+        transform: translateX(1rem)
+    
+    
+    100%
+        opacity: 1
+        transform: translateX(0)
+
+//Анимация которая двигает текст права на лево.
+@keyframes RightToLeft
+    0%
+        opacity: 0
+        transform: translateX(10rem)
+    80%
+        transform: translateX(-1rem)
+    
+    
+    100%
+        opacity: 1
+        transform: translateX(0)
+
+// Анимация движение в с права на лево при наведение
+@keyframes arrow-1 
+    0% 
+        left: 0
+    
+    50% 
+        left: 10px
+    
+    100% 
+        left: 0
+
+// Анимация фигуры движение по кругу
+@keyframes rotate 
+  from 
+    transform: rotate(0deg)
+  
+
+  to 
+    transform: rotate(360deg)
+
+@keyframes rotate-blue
+  from 
+    transform: rotate(0deg)
+  
+
+  to 
+    transform: rotate(-360deg)

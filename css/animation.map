@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "animation.css",
+	"sources": [
+		"../sass/animation.sass"
+	],
+	"sourcesContent": [
+		"//Анимация которая поднимает кнопку на 5px наверх.\n@keyframes BtnToUp {\n    0% {\n        opacity: 0;\n        transform: translateY(5rem); }\n\n    100% {\n        opacity: 1;\n        transform: translateY(0); } }\n\n// Анимация с верхну в низ\n@keyframes UpToBotom {\n    0% {\n        opacity: 0;\n        transform: translateY(-10rem); }\n    80% {\n        transform: translateY(1rem); }\n\n\n    100% {\n        opacity: 1;\n        transform: translateY(0); } }\n\n\n//Анимация которая двигает текст слева направо.\n@keyframes leftToRight {\n    0% {\n        opacity: 0;\n        transform: translateX(-10rem); }\n    80% {\n        transform: translateX(1rem); }\n\n\n    100% {\n        opacity: 1;\n        transform: translateX(0); } }\n\n//Анимация которая двигает текст права на лево.\n@keyframes RightToLeft {\n    0% {\n        opacity: 0;\n        transform: translateX(10rem); }\n    80% {\n        transform: translateX(-1rem); }\n\n\n    100% {\n        opacity: 1;\n        transform: translateX(0); } }\n\n// Анимация движение в с права на лево при наведение\n@keyframes arrow-1 {\n    0% {\n        left: 0; }\n\n    50% {\n        left: 10px; }\n\n    100% {\n        left: 0; } }\n\n// Анимация фигуры движение по кругу\n@keyframes rotate {\n  from {\n    transform: rotate(0deg); }\n\n\n  to {\n    transform: rotate(360deg); } }\n\n@keyframes rotate-blue {\n  from {\n    transform: rotate(0deg); }\n\n\n  to {\n    transform: rotate(-360deg); } }\n"
+	],
+	"names": [],
+	"mappings": "AACA,UAAU,CAAV,OAAU;EACN,EAAE;IACE,OAAO,EAAE,CAAC;IACV,SAAS,EAAE,gBAAgB;;EAE/B,IAAI;IACA,OAAO,EAAE,CAAC;IACV,SAAS,EAAE,aAAa;;;;AAGhC,UAAU,CAAV,SAAU;EACN,EAAE;IACE,OAAO,EAAE,CAAC;IACV,SAAS,EAAE,kBAAkB;;EACjC,GAAG;IACC,SAAS,EAAE,gBAAgB;;EAG/B,IAAI;IACA,OAAO,EAAE,CAAC;IACV,SAAS,EAAE,aAAa;;;;AAIhC,UAAU,CAAV,WAAU;EACN,EAAE;IACE,OAAO,EAAE,CAAC;IACV,SAAS,EAAE,kBAAkB;;EACjC,GAAG;IACC,SAAS,EAAE,gBAAgB;;EAG/B,IAAI;IACA,OAAO,EAAE,CAAC;IACV,SAAS,EAAE,aAAa;;;;AAGhC,UAAU,CAAV,WAAU;EACN,EAAE;IACE,OAAO,EAAE,CAAC;IACV,SAAS,EAAE,iBAAiB;;EAChC,GAAG;IACC,SAAS,EAAE,iBAAiB;;EAGhC,IAAI;IACA,OAAO,EAAE,CAAC;IACV,SAAS,EAAE,aAAa;;;;AAGhC,UAAU,CAAV,OAAU;EACN,EAAE;IACE,IAAI,EAAE,CAAC;;EAEX,GAAG;IACC,IAAI,EAAE,IAAI;;EAEd,IAAI;IACA,IAAI,EAAE,CAAC;;;;AAGf,UAAU,CAAV,MAAU;EACR,IAAI;IACF,SAAS,EAAE,YAAY;;EAGzB,EAAE;IACA,SAAS,EAAE,cAAc;;;;AAE7B,UAAU,CAAV,WAAU;EACR,IAAI;IACF,SAAS,EAAE,YAAY;;EAGzB,EAAE;IACA,SAAS,EAAE,eAAe"
+}

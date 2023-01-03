@@ -1,0 +1,1057 @@
+@charset "UTF-8";
+@keyframes BtnToUp {
+  0% {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes UpToBotom {
+  0% {
+    opacity: 0;
+    transform: translateY(-10rem);
+  }
+  80% {
+    transform: translateY(1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes leftToRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+  80% {
+    transform: translateX(1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes RightToLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+  80% {
+    transform: translateX(-1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes arrow-1 {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 10px;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate-blue {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+/* line 1, ../../Users/denis/Project/Project-my-site/sass/col-12.sass */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* line 10, ../../Users/denis/Project/Project-my-site/sass/col-12.sass */
+.col-1 {
+  width: calc( 8.33% - 15px);
+}
+
+/* line 12, ../../Users/denis/Project/Project-my-site/sass/col-12.sass */
+.col-2 {
+  width: calc( 16.66% - 15px);
+}
+
+/* line 14, ../../Users/denis/Project/Project-my-site/sass/col-12.sass */
+.col-3 {
+  width: calc( 25% - 15px);
+}
+
+/* line 16, ../../Users/denis/Project/Project-my-site/sass/col-12.sass */
+.col-4 {
+  width: calc( 33.33% - 15px);
+}
+
+/* line 18, ../../Users/denis/Project/Project-my-site/sass/col-12.sass */
+.col-5 {
+  width: calc( 41.66% - 15px);
+}
+
+/* line 20, ../../Users/denis/Project/Project-my-site/sass/col-12.sass */
+.col-6 {
+  width: calc( 50% - 15px);
+}
+
+/* line 22, ../../Users/denis/Project/Project-my-site/sass/col-12.sass */
+.col-7 {
+  width: calc( 58.33% - 15px);
+}
+
+/* line 24, ../../Users/denis/Project/Project-my-site/sass/col-12.sass */
+.col-8 {
+  width: calc( 66.66% - 15px);
+}
+
+/* line 26, ../../Users/denis/Project/Project-my-site/sass/col-12.sass */
+.col-9 {
+  width: calc( 75% - 15px);
+}
+
+/* line 28, ../../Users/denis/Project/Project-my-site/sass/col-12.sass */
+.col-10 {
+  width: calc( 83.33% - 15px);
+}
+
+/* line 30, ../../Users/denis/Project/Project-my-site/sass/col-12.sass */
+.col-11 {
+  width: calc( 91.66% - 15px);
+}
+
+/* line 32, ../../Users/denis/Project/Project-my-site/sass/col-12.sass */
+.col-12 {
+  width: calc( 100% - 15px);
+}
+
+@media screen and (max-width: 992px) {
+  /* line 37, ../../Users/denis/Project/Project-my-site/sass/col-12.sass */
+  .col-lg-3 {
+    width: calc( 25% - 15px);
+  }
+  /* line 39, ../../Users/denis/Project/Project-my-site/sass/col-12.sass */
+  .col-lg-4 {
+    width: calc( 33.33% - 15px);
+  }
+  /* line 41, ../../Users/denis/Project/Project-my-site/sass/col-12.sass */
+  .col-lg-5 {
+    width: calc( 41.66% - 15px);
+  }
+  /* line 43, ../../Users/denis/Project/Project-my-site/sass/col-12.sass */
+  .col-lg-6 {
+    width: calc( 50% - 15px);
+  }
+  /* line 45, ../../Users/denis/Project/Project-my-site/sass/col-12.sass */
+  .col-lg-7 {
+    width: calc( 58.33% - 15px);
+  }
+  /* line 47, ../../Users/denis/Project/Project-my-site/sass/col-12.sass */
+  .col-lg-8 {
+    width: calc( 66.66% - 15px);
+  }
+  /* line 49, ../../Users/denis/Project/Project-my-site/sass/col-12.sass */
+  .col-lg-9 {
+    width: calc( 75% - 15px);
+  }
+  /* line 51, ../../Users/denis/Project/Project-my-site/sass/col-12.sass */
+  .col-lg-12 {
+    width: calc( 100% - 15px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 57, ../../Users/denis/Project/Project-my-site/sass/col-12.sass */
+  .col-md-4 {
+    width: calc( 33.33% - 15px);
+  }
+  /* line 59, ../../Users/denis/Project/Project-my-site/sass/col-12.sass */
+  .col-md-6 {
+    width: calc( 50% - 15px);
+  }
+  /* line 61, ../../Users/denis/Project/Project-my-site/sass/col-12.sass */
+  .col-md-12 {
+    width: calc( 100% - 15px);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* line 65, ../../Users/denis/Project/Project-my-site/sass/col-12.sass */
+  .col-sm-6 {
+    width: calc( 50% - 15px);
+  }
+  /* line 67, ../../Users/denis/Project/Project-my-site/sass/col-12.sass */
+  .col-md-12 {
+    width: calc( 100% - 15px);
+  }
+}
+
+@media screen and (max-width: 415px) {
+  /* line 71, ../../Users/denis/Project/Project-my-site/sass/col-12.sass */
+  .col-xs-12 {
+    width: calc( 100% - 15px);
+  }
+}
+
+/* line 5, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* line 12, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.body {
+  background: #0A091D;
+}
+
+/* line 18, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 21, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.conteiner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* line 25, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.header__conteiner {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  justify-content: space-between;
+}
+
+/* line 31, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 66px;
+  height: 66px;
+  background: #ffffff;
+  border-radius: 200px;
+  font-family: 'Hanalei Fill';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: #000000;
+}
+
+/* line 47, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.nav-header__list {
+  display: flex;
+}
+
+/* line 50, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.nav-header__item {
+  list-style: none;
+  margin-right: 24px;
+}
+
+/* line 53, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.nav-header__item:last-child {
+  margin-right: 0;
+}
+
+/* line 55, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.nav-header__link {
+  position: relative;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+/* line 62, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.nav-header__link:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -3px;
+  width: 0;
+  height: 3px;
+  background-color: #291DFF;
+  transition: width 0.5s;
+}
+
+/* line 72, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.nav-header__link:hover:after {
+  content: "";
+  width: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 3px;
+  background-color: #291DFF;
+  transition: width 0.5s;
+}
+
+/* line 84, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.nav-social__list {
+  display: flex;
+}
+
+/* line 86, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.nav-social__item {
+  list-style: none;
+  margin-right: 27px;
+}
+
+/* line 89, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.nav-social__item:last-child {
+  margin-right: 0px;
+}
+
+/* line 92, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.nav-social__link {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+/* line 96, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+
+/* line 102, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.gmail {
+  background-image: url("../icons/gmail.svg");
+}
+
+/* line 105, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.telegram {
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM16.64 8.8C16.49 10.38 15.84 14.22 15.51 15.99C15.37 16.74 15.09 16.99 14.83 17.02C14.25 17.07 13.81 16.64 13.25 16.27C12.37 15.69 11.87 15.33 11.02 14.77C10.03 14.12 10.67 13.76 11.24 13.18C11.39 13.03 13.95 10.7 14 10.49C14.0069 10.4582 14.006 10.4252 13.9973 10.3938C13.9886 10.3624 13.9724 10.3337 13.95 10.31C13.89 10.26 13.81 10.28 13.74 10.29C13.65 10.31 12.25 11.24 9.52 13.08C9.12 13.35 8.76 13.49 8.44 13.48C8.08 13.47 7.4 13.28 6.89 13.11C6.26 12.91 5.77 12.8 5.81 12.45C5.83 12.27 6.08 12.09 6.55 11.9C9.47 10.63 11.41 9.79 12.38 9.39C15.16 8.23 15.73 8.03 16.11 8.03C16.19 8.03 16.38 8.05 16.5 8.15C16.6 8.23 16.63 8.34 16.64 8.42C16.63 8.48 16.65 8.66 16.64 8.8Z" fill="white"/%3E%3C/svg%3E');
+}
+
+/* line 108, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.instagram {
+  background-image: url("../icons/instagram.svg");
+}
+
+/* line 111, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.coder {
+  position: absolute;
+  z-index: -5;
+  width: 2100px;
+  height: 400px;
+  opacity: 0.5;
+  animation-name: UpToBotom;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  animation-timing-function: ease;
+  backface-visibility: hidden;
+  animation-fill-mode: backwards;
+  background: url('data:image/svg+xml;charset=utf8,%3Csvg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 100"%3E%3Cstyle type="text/css"%3E%3C![CDATA[ text { filter: url(%23filter); fill: white; font-family: %27Share Tech Mono%27, sans-serif; font-size: 100px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }]]%3E%3C/style%3E %3Cdefs%3E %3Cfilter id="filter"%3E %3CfeFlood flood-color="%230A091D" result="%230A091D" /%3E %3CfeFlood flood-color="red" result="flood1" /%3E %3CfeFlood flood-color="limegreen" result="flood2" /%3E %3CfeOffset in="SourceGraphic" dx="3" dy="0" result="off1a"/%3E %3CfeOffset in="SourceGraphic" dx="2" dy="0" result="off1b"/%3E %3CfeOffset in="SourceGraphic" dx="-3" dy="0" result="off2a"/%3E %3CfeOffset in="SourceGraphic" dx="-2" dy="0" result="off2b"/%3E %3CfeComposite in="flood1" in2="off1a" operator="in" result="comp1" /%3E %3CfeComposite in="flood2" in2="off2a" operator="in" result="comp2" /%3E %3CfeMerge x="0" width="100%25" result="merge1"%3E %3CfeMergeNode in = "black" /%3E %3CfeMergeNode in = "comp1" /%3E %3CfeMergeNode in = "off1b" /%3E %3Canimate attributeName="y" id = "y" dur ="4s" values = %27104px; 104px; 30px; 105px; 30px; 2px; 2px; 50px; 40px; 105px; 105px; 20px; 6ßpx; 40px; 104px; 40px; 70px; 10px; 30px; 104px; 102px%27 keyTimes = %270; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1%27 repeatCount = "indefinite" /%3E %3Canimate attributeName="height" id = "h" dur ="4s" values = %2710px; 0px; 10px; 30px; 50px; 0px; 10px; 0px; 0px; 0px; 10px; 50px; 40px; 0px; 0px; 0px; 40px; 30px; 10px; 0px; 50px%27 keyTimes = %270; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1%27 repeatCount = "indefinite" /%3E %3C/feMerge%3E %3CfeMerge x="0" width="100%25" y="60px" height="65px" result="merge2"%3E %3CfeMergeNode in = "black" /%3E %3CfeMergeNode in = "comp2" /%3E %3CfeMergeNode in = "off2b" /%3E %3Canimate attributeName="y" id = "y" dur ="4s" values = %27103px; 104px; 69px; 53px; 42px; 104px; 78px; 89px; 96px; 100px; 67px; 50px; 96px; 66px; 88px; 42px; 13px; 100px; 100px; 104px;%27 keyTimes = %270; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 0.548; 0.577; 0.613; 1%27 repeatCount = "indefinite" /%3E %3Canimate attributeName="height" id = "h" dur = "4s" values = %270px; 0px; 0px; 16px; 16px; 12px; 12px; 0px; 0px; 5px; 10px; 22px; 33px; 11px; 0px; 0px; 10px%27 keyTimes = %270; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 1%27 repeatCount = "indefinite" /%3E %3C/feMerge%3E %3CfeMerge%3E %3CfeMergeNode in="SourceGraphic" /%3E %3CfeMergeNode in="merge1" /%3E %3CfeMergeNode in="merge2" /%3E %3C/feMerge%3E %3C/filter%3E %3C/defs%3E%3Cg%3E %3Ctext x="0" y="100"%3E%26%238249;coder%26%238250;%3C/text%3E%3C/g%3E%3C/svg%3E') no-repeat center center;
+  overflow: hidden;
+}
+
+/* line 126, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.btn-bottom {
+  color: #ffffff;
+  font-size: 100px;
+  cursor: pointer;
+}
+
+/* line 132, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section-hero__conteiner {
+  position: relative;
+  display: flex;
+  height: 1024px;
+  padding: 100px 0 133px 0;
+}
+
+/* line 138, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section-hero__coder {
+  top: -187px;
+  left: 95px;
+}
+
+/* line 141, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section-hero__wrapper {
+  padding-top: 30px;
+}
+
+/* line 146, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section-hero__title {
+  animation-name: leftToRight;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  animation-timing-function: ease;
+  backface-visibility: hidden;
+  animation-fill-mode: backwards;
+}
+
+/* line 148, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section-hero__title-color {
+  color: #D02222;
+}
+
+/* line 150, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section-hero__text {
+  margin-left: 40px;
+  max-width: 390px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 143.4%;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+/* line 159, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section-hero__avatar {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  margin-right: 10%;
+}
+
+/* line 164, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section-hero__avatar-img {
+  position: absolute;
+  z-index: 3;
+  left: -52px;
+  top: -70px;
+  width: 600px;
+  height: 600px;
+  background-image: url("../img/Avatar.svg");
+}
+
+/* line 172, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section-hero__avatar-triangle-red {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  animation: 6s linear infinite rotate;
+}
+
+/* line 179, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section-hero__avatar-triangle-blue {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  animation: 6s linear infinite rotate-blue;
+}
+
+/* line 185, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section-hero__btn {
+  margin-right: 34px;
+}
+
+/* line 187, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section-hero__btn-box {
+  display: flex;
+}
+
+/* line 189, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section-hero__background {
+  position: absolute;
+  top: 500px;
+  left: 600px;
+}
+
+/* line 193, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section-hero__background-box {
+  position: relative;
+}
+
+/* line 197, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.triangle-red {
+  display: block;
+  width: 527px;
+  height: 525px;
+  background: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 527 525" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M340.112 5.4643C452.185 -22.3392 552.328 81.6059 520.37 192.565L455.896 416.426C423.938 527.386 283.847 562.14 203.732 478.984L42.1001 311.217C-38.0148 228.061 1.9325 89.3614 114.005 61.5578L340.112 5.4643Z" fill="%23D02222"/%3E%3C/svg%3E') no-repeat center center;
+}
+
+/* line 204, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.triangle-blue {
+  display: block;
+  width: 516px;
+  height: 533px;
+  background: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 516 533" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M30.3645 132.976C44.3485 18.3558 177.168 -38.1437 269.44 31.2769L455.599 171.333C547.871 240.754 530.391 384.029 424.135 429.228L209.764 520.418C103.508 565.618 -11.8323 478.842 2.15174 364.222L30.3645 132.976Z" fill="%23211E57"/%3E%3C/svg%3E') no-repeat center center;
+}
+
+/* line 209, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.arrow-hero {
+  margin-left: 30px;
+}
+
+/* line 212, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.arrow-1 {
+  cursor: pointer;
+  position: relative;
+  width: 80px;
+  height: 40px;
+}
+
+/* line 219, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.arrow-1 div {
+  position: relative;
+  top: 16px;
+  width: 400px;
+  height: 4px;
+  background-color: #ffffff;
+  display: block;
+}
+
+/* line 227, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.arrow-1 div::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 4px;
+  top: -6px;
+  right: 384px;
+  background-color: #ffffff;
+  transform: rotate(135deg);
+}
+
+/* line 237, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.arrow-1 div::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 4px;
+  top: 6px;
+  right: 384px;
+  background-color: #ffffff;
+  transform: rotate(-135deg);
+}
+
+/* line 248, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.arrow-animation {
+  position: relative;
+}
+
+/* line 250, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.arrow-animation:hover {
+  animation: arrow-1 1s linear infinite;
+}
+
+/* line 254, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.arrow-position-left {
+  left: -120px;
+}
+
+/* line 258, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.arrow-3 div {
+  position: relative;
+  top: -24px;
+  width: 400px;
+  height: 4px;
+  background-color: #ffffff;
+  display: block;
+}
+
+/* line 266, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.arrow-3 div::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 4px;
+  top: -6px;
+  right: -5px;
+  background-color: #ffffff;
+  transform: rotate(45deg);
+}
+
+/* line 276, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.arrow-3 div::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 4px;
+  top: 6px;
+  right: -5px;
+  background-color: #ffffff;
+  transform: rotate(-45deg);
+}
+
+/* line 287, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.arrow-color div {
+  background: #D02222;
+}
+
+/* line 289, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.arrow-color div::after {
+  background: #D02222;
+}
+
+/* line 291, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.arrow-color div::before {
+  background: #D02222;
+}
+
+/* line 297, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 179px;
+  height: 134px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #FFFFFF;
+  text-align: center;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+}
+
+/* line 311, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.btn-blue {
+  background-color: #211E57;
+  border: 1px solid #211E57;
+}
+
+/* line 316, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.background-text__html {
+  position: absolute;
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200px" height="70px" viewBox="0 0 1100 10"%3E%3Cstyle type="text/css"%3E%3C![CDATA[ text { filter: url(%23filter); fill: white; font-family: %27Share Tech Mono%27, sans-serif; font-size: 300px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }]]%3E%3C/style%3E %3Cdefs%3E %3Cfilter id="filter"%3E %3CfeFlood flood-color="%230A091D" result="%230A091D" /%3E %3CfeFlood flood-color="red" result="flood1" /%3E %3CfeFlood flood-color="limegreen" result="flood2" /%3E %3CfeOffset in="SourceGraphic" dx="3" dy="0" result="off1a"/%3E %3CfeOffset in="SourceGraphic" dx="2" dy="0" result="off1b"/%3E %3CfeOffset in="SourceGraphic" dx="-3" dy="0" result="off2a"/%3E %3CfeOffset in="SourceGraphic" dx="-2" dy="0" result="off2b"/%3E %3CfeComposite in="flood1" in2="off1a" operator="in" result="comp1" /%3E %3CfeComposite in="flood2" in2="off2a" operator="in" result="comp2" /%3E %3CfeMerge x="0" width="100%25" result="merge1"%3E %3CfeMergeNode in = "black" /%3E %3CfeMergeNode in = "comp1" /%3E %3CfeMergeNode in = "off1b" /%3E %3Canimate attributeName="y" id = "y" dur ="4s" values = %27104px; 104px; 30px; 105px; 30px; 2px; 2px; 50px; 40px; 105px; 105px; 20px; 6ßpx; 40px; 104px; 40px; 70px; 10px; 30px; 104px; 102px%27 keyTimes = %270; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1%27 repeatCount = "indefinite" /%3E %3Canimate attributeName="height" id = "h" dur ="4s" values = %2710px; 0px; 10px; 30px; 50px; 0px; 10px; 0px; 0px; 0px; 10px; 50px; 40px; 0px; 0px; 0px; 40px; 30px; 10px; 0px; 50px%27 keyTimes = %270; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1%27 repeatCount = "indefinite" /%3E %3C/feMerge%3E %3CfeMerge x="0" width="100%25" y="60px" height="65px" result="merge2"%3E %3CfeMergeNode in = "black" /%3E %3CfeMergeNode in = "comp2" /%3E %3CfeMergeNode in = "off2b" /%3E %3Canimate attributeName="y" id = "y" dur ="4s" values = %27103px; 104px; 69px; 53px; 42px; 104px; 78px; 89px; 96px; 100px; 67px; 50px; 96px; 66px; 88px; 42px; 13px; 100px; 100px; 104px;%27 keyTimes = %270; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 0.548; 0.577; 0.613; 1%27 repeatCount = "indefinite" /%3E %3Canimate attributeName="height" id = "h" dur = "4s" values = %270px; 0px; 0px; 16px; 16px; 12px; 12px; 0px; 0px; 5px; 10px; 22px; 33px; 11px; 0px; 0px; 10px%27 keyTimes = %270; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 1%27 repeatCount = "indefinite" /%3E %3C/feMerge%3E %3CfeMerge%3E %3CfeMergeNode in="SourceGraphic" /%3E %3CfeMergeNode in="merge1" /%3E %3CfeMergeNode in="merge2" /%3E %3C/feMerge%3E %3C/filter%3E %3C/defs%3E%3Cg%3E %3Ctext x="0" y="100"%3E HTML5 %3C/text%3E%3C/g%3E%3C/svg%3E');
+  width: 200px;
+  height: 70px;
+  opacity: 0.5;
+  top: 0px;
+  left: 0px;
+  animation-name: leftToRight;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  animation-timing-function: ease;
+  backface-visibility: hidden;
+  animation-fill-mode: backwards;
+}
+
+/* line 325, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.background-text__html-v2 {
+  position: absolute;
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600px" height="100px" viewBox="0 0 600 100"%3E%3Cstyle type="text/css"%3E%3C![CDATA[ text { filter: url(%23filter); fill: white; font-family: %27Share Tech Mono%27, sans-serif; font-size: 100px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }]]%3E%3C/style%3E %3Cdefs%3E %3Cfilter id="filter"%3E %3CfeFlood flood-color="%230A091D" result="bl%230A091D" /%3E %3CfeFlood flood-color="red" result="flood1" /%3E %3CfeFlood flood-color="limegreen" result="flood2" /%3E %3CfeOffset in="SourceGraphic" dx="3" dy="0" result="off1a"/%3E %3CfeOffset in="SourceGraphic" dx="2" dy="0" result="off1b"/%3E %3CfeOffset in="SourceGraphic" dx="-3" dy="0" result="off2a"/%3E %3CfeOffset in="SourceGraphic" dx="-2" dy="0" result="off2b"/%3E %3CfeComposite in="flood1" in2="off1a" operator="in" result="comp1" /%3E %3CfeComposite in="flood2" in2="off2a" operator="in" result="comp2" /%3E %3CfeMerge x="0" width="100%25" result="merge1"%3E %3CfeMergeNode in = "black" /%3E %3CfeMergeNode in = "comp1" /%3E %3CfeMergeNode in = "off1b" /%3E %3Canimate attributeName="y" id = "y" dur ="4s" values = %27104px; 104px; 30px; 105px; 30px; 2px; 2px; 50px; 40px; 105px; 105px; 20px; 6ßpx; 40px; 104px; 40px; 70px; 10px; 30px; 104px; 102px%27 keyTimes = %270; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1%27 repeatCount = "indefinite" /%3E %3Canimate attributeName="height" id = "h" dur ="4s" values = %2710px; 0px; 10px; 30px; 50px; 0px; 10px; 0px; 0px; 0px; 10px; 50px; 40px; 0px; 0px; 0px; 40px; 30px; 10px; 0px; 50px%27 keyTimes = %270; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1%27 repeatCount = "indefinite" /%3E %3C/feMerge%3E %3CfeMerge x="0" width="100%25" y="60px" height="65px" result="merge2"%3E %3CfeMergeNode in = "black" /%3E %3CfeMergeNode in = "comp2" /%3E %3CfeMergeNode in = "off2b" /%3E %3Canimate attributeName="y" id = "y" dur ="4s" values = %27103px; 104px; 69px; 53px; 42px; 104px; 78px; 89px; 96px; 100px; 67px; 50px; 96px; 66px; 88px; 42px; 13px; 100px; 100px; 104px;%27 keyTimes = %270; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 0.548; 0.577; 0.613; 1%27 repeatCount = "indefinite" /%3E %3Canimate attributeName="height" id = "h" dur = "4s" values = %270px; 0px; 0px; 16px; 16px; 12px; 12px; 0px; 0px; 5px; 10px; 22px; 33px; 11px; 0px; 0px; 10px%27 keyTimes = %270; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 1%27 repeatCount = "indefinite" /%3E %3C/feMerge%3E %3CfeMerge%3E %3CfeMergeNode in="SourceGraphic" /%3E %3CfeMergeNode in="merge1" /%3E %3CfeMergeNode in="merge2" /%3E %3C/feMerge%3E %3C/filter%3E %3C/defs%3E%3Cg%3E %3Ctext x="0" y="100"%3E%26%2360;html%26%2362;%3C/text%3E%3C/g%3E%3C/svg%3E');
+  top: 1px;
+  left: 172px;
+  width: 361px;
+  height: 123px;
+  opacity: 0.5;
+  z-index: -3;
+}
+
+/* line 334, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.background-text__weight {
+  position: absolute;
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200px" height="50px" viewBox="0 0 1000 100"%3E%3Cstyle type="text/css"%3E%3C![CDATA[ text { filter: url(%23filter); fill: white; font-family: %27Share Tech Mono%27, sans-serif; font-size: 100px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }]]%3E%3C/style%3E %3Cdefs%3E %3Cfilter id="filter"%3E %3CfeFlood flood-color="%230A091D" result="%230A091D" /%3E %3CfeFlood flood-color="red" result="flood1" /%3E %3CfeFlood flood-color="limegreen" result="flood2" /%3E %3CfeOffset in="SourceGraphic" dx="3" dy="0" result="off1a"/%3E %3CfeOffset in="SourceGraphic" dx="2" dy="0" result="off1b"/%3E %3CfeOffset in="SourceGraphic" dx="-3" dy="0" result="off2a"/%3E %3CfeOffset in="SourceGraphic" dx="-2" dy="0" result="off2b"/%3E %3CfeComposite in="flood1" in2="off1a" operator="in" result="comp1" /%3E %3CfeComposite in="flood2" in2="off2a" operator="in" result="comp2" /%3E %3CfeMerge x="0" width="100%25" result="merge1"%3E %3CfeMergeNode in = "black" /%3E %3CfeMergeNode in = "comp1" /%3E %3CfeMergeNode in = "off1b" /%3E %3Canimate attributeName="y" id = "y" dur ="4s" values = %27104px; 104px; 30px; 105px; 30px; 2px; 2px; 50px; 40px; 105px; 105px; 20px; 6ßpx; 40px; 104px; 40px; 70px; 10px; 30px; 104px; 102px%27 keyTimes = %270; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1%27 repeatCount = "indefinite" /%3E %3Canimate attributeName="height" id = "h" dur ="4s" values = %2710px; 0px; 10px; 30px; 50px; 0px; 10px; 0px; 0px; 0px; 10px; 50px; 40px; 0px; 0px; 0px; 40px; 30px; 10px; 0px; 50px%27 keyTimes = %270; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1%27 repeatCount = "indefinite" /%3E %3C/feMerge%3E %3CfeMerge x="0" width="100%25" y="60px" height="65px" result="merge2"%3E %3CfeMergeNode in = "black" /%3E %3CfeMergeNode in = "comp2" /%3E %3CfeMergeNode in = "off2b" /%3E %3Canimate attributeName="y" id = "y" dur ="4s" values = %27103px; 104px; 69px; 53px; 42px; 104px; 78px; 89px; 96px; 100px; 67px; 50px; 96px; 66px; 88px; 42px; 13px; 100px; 100px; 104px;%27 keyTimes = %270; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 0.548; 0.577; 0.613; 1%27 repeatCount = "indefinite" /%3E %3Canimate attributeName="height" id = "h" dur = "4s" values = %270px; 0px; 0px; 16px; 16px; 12px; 12px; 0px; 0px; 5px; 10px; 22px; 33px; 11px; 0px; 0px; 10px%27 keyTimes = %270; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 1%27 repeatCount = "indefinite" /%3E %3C/feMerge%3E %3CfeMerge%3E %3CfeMergeNode in="SourceGraphic" /%3E %3CfeMergeNode in="merge1" /%3E %3CfeMergeNode in="merge2" /%3E %3C/feMerge%3E %3C/filter%3E %3C/defs%3E%3Cg%3E %3Ctext x="0" y="100"%3Eweight: 129px;%3C/text%3E%3C/g%3E%3C/svg%3E');
+  width: 200px;
+  height: 50px;
+  top: 47px;
+  left: 40px;
+  opacity: 0.5;
+  animation-name: leftToRight;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  animation-timing-function: ease;
+  backface-visibility: hidden;
+  animation-fill-mode: backwards;
+}
+
+/* line 343, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.background-text__css3 {
+  position: absolute;
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200px" height="50px" viewBox="0 0 1000 100"%3E%3Cstyle type="text/css"%3E%3C![CDATA[ text { filter: url(%23filter); fill: white; font-family: %27Share Tech Mono%27, sans-serif; font-size: 200px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }]]%3E%3C/style%3E %3Cdefs%3E %3Cfilter id="filter"%3E %3CfeFlood flood-color="%230A091D" result="%230A091D" /%3E %3CfeFlood flood-color="red" result="flood1" /%3E %3CfeFlood flood-color="limegreen" result="flood2" /%3E %3CfeOffset in="SourceGraphic" dx="3" dy="0" result="off1a"/%3E %3CfeOffset in="SourceGraphic" dx="2" dy="0" result="off1b"/%3E %3CfeOffset in="SourceGraphic" dx="-3" dy="0" result="off2a"/%3E %3CfeOffset in="SourceGraphic" dx="-2" dy="0" result="off2b"/%3E %3CfeComposite in="flood1" in2="off1a" operator="in" result="comp1" /%3E %3CfeComposite in="flood2" in2="off2a" operator="in" result="comp2" /%3E %3CfeMerge x="0" width="100%25" result="merge1"%3E %3CfeMergeNode in = "black" /%3E %3CfeMergeNode in = "comp1" /%3E %3CfeMergeNode in = "off1b" /%3E %3Canimate attributeName="y" id = "y" dur ="4s" values = %27104px; 104px; 30px; 105px; 30px; 2px; 2px; 50px; 40px; 105px; 105px; 20px; 6ßpx; 40px; 104px; 40px; 70px; 10px; 30px; 104px; 102px%27 keyTimes = %270; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1%27 repeatCount = "indefinite" /%3E %3Canimate attributeName="height" id = "h" dur ="4s" values = %2710px; 0px; 10px; 30px; 50px; 0px; 10px; 0px; 0px; 0px; 10px; 50px; 40px; 0px; 0px; 0px; 40px; 30px; 10px; 0px; 50px%27 keyTimes = %270; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1%27 repeatCount = "indefinite" /%3E %3C/feMerge%3E %3CfeMerge x="0" width="100%25" y="60px" height="65px" result="merge2"%3E %3CfeMergeNode in = "black" /%3E %3CfeMergeNode in = "comp2" /%3E %3CfeMergeNode in = "off2b" /%3E %3Canimate attributeName="y" id = "y" dur ="4s" values = %27103px; 104px; 69px; 53px; 42px; 104px; 78px; 89px; 96px; 100px; 67px; 50px; 96px; 66px; 88px; 42px; 13px; 100px; 100px; 104px;%27 keyTimes = %270; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 0.548; 0.577; 0.613; 1%27 repeatCount = "indefinite" /%3E %3Canimate attributeName="height" id = "h" dur = "4s" values = %270px; 0px; 0px; 16px; 16px; 12px; 12px; 0px; 0px; 5px; 10px; 22px; 33px; 11px; 0px; 0px; 10px%27 keyTimes = %270; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 1%27 repeatCount = "indefinite" /%3E %3C/feMerge%3E %3CfeMerge%3E %3CfeMergeNode in="SourceGraphic" /%3E %3CfeMergeNode in="merge1" /%3E %3CfeMergeNode in="merge2" /%3E %3C/feMerge%3E %3C/filter%3E %3C/defs%3E%3Cg%3E %3Ctext x="0" y="100"%3EСSS3%3C/text%3E%3C/g%3E%3C/svg%3E');
+  width: 142px;
+  height: 45px;
+  top: 105px;
+  left: 192px;
+  z-index: 2;
+  opacity: 0.5;
+  animation-name: RightToLeft;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  animation-timing-function: ease;
+  backface-visibility: hidden;
+  animation-fill-mode: backwards;
+}
+
+/* line 358, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.background-text__code {
+  position: absolute;
+  top: 160px;
+  left: 281px;
+  font-size: 30px;
+  z-index: -3;
+  width: 200px;
+  height: 50px;
+  opacity: 0.5;
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200px" height="50px" viewBox="0 0 200 100"%3E%3Cstyle type="text/css"%3E%3C![CDATA[ text { filter: url(%23filter); fill: white; font-family: %27Share Tech Mono%27, sans-serif; font-size: 100px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }]]%3E%3C/style%3E %3Cdefs%3E %3Cfilter id="filter"%3E %3CfeFlood flood-color="%230A091D" result="%230A091D" /%3E %3CfeFlood flood-color="red" result="flood1" /%3E %3CfeFlood flood-color="limegreen" result="flood2" /%3E %3CfeOffset in="SourceGraphic" dx="3" dy="0" result="off1a"/%3E %3CfeOffset in="SourceGraphic" dx="2" dy="0" result="off1b"/%3E %3CfeOffset in="SourceGraphic" dx="-3" dy="0" result="off2a"/%3E %3CfeOffset in="SourceGraphic" dx="-2" dy="0" result="off2b"/%3E %3CfeComposite in="flood1" in2="off1a" operator="in" result="comp1" /%3E %3CfeComposite in="flood2" in2="off2a" operator="in" result="comp2" /%3E %3CfeMerge x="0" width="100%25" result="merge1"%3E %3CfeMergeNode in = "black" /%3E %3CfeMergeNode in = "comp1" /%3E %3CfeMergeNode in = "off1b" /%3E %3Canimate attributeName="y" id = "y" dur ="4s" values = %27104px; 104px; 30px; 105px; 30px; 2px; 2px; 50px; 40px; 105px; 105px; 20px; 6ßpx; 40px; 104px; 40px; 70px; 10px; 30px; 104px; 102px%27 keyTimes = %270; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1%27 repeatCount = "indefinite" /%3E %3Canimate attributeName="height" id = "h" dur ="4s" values = %2710px; 0px; 10px; 30px; 50px; 0px; 10px; 0px; 0px; 0px; 10px; 50px; 40px; 0px; 0px; 0px; 40px; 30px; 10px; 0px; 50px%27 keyTimes = %270; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1%27 repeatCount = "indefinite" /%3E %3C/feMerge%3E %3CfeMerge x="0" width="100%25" y="60px" height="65px" result="merge2"%3E %3CfeMergeNode in = "black" /%3E %3CfeMergeNode in = "comp2" /%3E %3CfeMergeNode in = "off2b" /%3E %3Canimate attributeName="y" id = "y" dur ="4s" values = %27103px; 104px; 69px; 53px; 42px; 104px; 78px; 89px; 96px; 100px; 67px; 50px; 96px; 66px; 88px; 42px; 13px; 100px; 100px; 104px;%27 keyTimes = %270; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 0.548; 0.577; 0.613; 1%27 repeatCount = "indefinite" /%3E %3Canimate attributeName="height" id = "h" dur = "4s" values = %270px; 0px; 0px; 16px; 16px; 12px; 12px; 0px; 0px; 5px; 10px; 22px; 33px; 11px; 0px; 0px; 10px%27 keyTimes = %270; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 1%27 repeatCount = "indefinite" /%3E %3C/feMerge%3E %3CfeMerge%3E %3CfeMergeNode in="SourceGraphic" /%3E %3CfeMergeNode in="merge1" /%3E %3CfeMergeNode in="merge2" /%3E %3C/feMerge%3E %3C/filter%3E %3C/defs%3E%3Cg%3E %3Ctext x="0" y="100"%3Ecoder%3C/text%3E%3C/g%3E%3C/svg%3E');
+}
+
+/* line 370, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.background-text__color {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  top: 141px;
+  left: 241px;
+  opacity: 0.5;
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200px" height="50px" viewBox="0 0 1000 100"%3E%3Cstyle type="text/css"%3E%3C![CDATA[ text { filter: url(%23filter); fill: white; font-family: %27Share Tech Mono%27, sans-serif; font-size: 100px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }]]%3E%3C/style%3E %3Cdefs%3E %3Cfilter id="filter"%3E %3CfeFlood flood-color="%230A091D" result="%230A091D" /%3E %3CfeFlood flood-color="red" result="flood1" /%3E %3CfeFlood flood-color="limegreen" result="flood2" /%3E %3CfeOffset in="SourceGraphic" dx="3" dy="0" result="off1a"/%3E %3CfeOffset in="SourceGraphic" dx="2" dy="0" result="off1b"/%3E %3CfeOffset in="SourceGraphic" dx="-3" dy="0" result="off2a"/%3E %3CfeOffset in="SourceGraphic" dx="-2" dy="0" result="off2b"/%3E %3CfeComposite in="flood1" in2="off1a" operator="in" result="comp1" /%3E %3CfeComposite in="flood2" in2="off2a" operator="in" result="comp2" /%3E %3CfeMerge x="0" width="100%25" result="merge1"%3E %3CfeMergeNode in = "black" /%3E %3CfeMergeNode in = "comp1" /%3E %3CfeMergeNode in = "off1b" /%3E %3Canimate attributeName="y" id = "y" dur ="4s" values = %27104px; 104px; 30px; 105px; 30px; 2px; 2px; 50px; 40px; 105px; 105px; 20px; 6ßpx; 40px; 104px; 40px; 70px; 10px; 30px; 104px; 102px%27 keyTimes = %270; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1%27 repeatCount = "indefinite" /%3E %3Canimate attributeName="height" id = "h" dur ="4s" values = %2710px; 0px; 10px; 30px; 50px; 0px; 10px; 0px; 0px; 0px; 10px; 50px; 40px; 0px; 0px; 0px; 40px; 30px; 10px; 0px; 50px%27 keyTimes = %270; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1%27 repeatCount = "indefinite" /%3E %3C/feMerge%3E %3CfeMerge x="0" width="100%25" y="60px" height="65px" result="merge2"%3E %3CfeMergeNode in = "black" /%3E %3CfeMergeNode in = "comp2" /%3E %3CfeMergeNode in = "off2b" /%3E %3Canimate attributeName="y" id = "y" dur ="4s" values = %27103px; 104px; 69px; 53px; 42px; 104px; 78px; 89px; 96px; 100px; 67px; 50px; 96px; 66px; 88px; 42px; 13px; 100px; 100px; 104px;%27 keyTimes = %270; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 0.548; 0.577; 0.613; 1%27 repeatCount = "indefinite" /%3E %3Canimate attributeName="height" id = "h" dur = "4s" values = %270px; 0px; 0px; 16px; 16px; 12px; 12px; 0px; 0px; 5px; 10px; 22px; 33px; 11px; 0px; 0px; 10px%27 keyTimes = %270; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 1%27 repeatCount = "indefinite" /%3E %3C/feMerge%3E %3CfeMerge%3E %3CfeMergeNode in="SourceGraphic" /%3E %3CfeMergeNode in="merge1" /%3E %3CfeMergeNode in="merge2" /%3E %3C/feMerge%3E %3C/filter%3E %3C/defs%3E%3Cg%3E %3Ctext x="0" y="100"%3Ecolour: %23000;%3C/text%3E%3C/g%3E%3C/svg%3E');
+}
+
+/* line 379, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.background-text__js {
+  position: absolute;
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200px" height="50px" viewBox="0 0 1100 100"%3E%3Cstyle type="text/css"%3E%3C![CDATA[ text { filter: url(%23filter); fill: white; font-family: %27Share Tech Mono%27, sans-serif; font-size: 200px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }]]%3E%3C/style%3E %3Cdefs%3E %3Cfilter id="filter"%3E %3CfeFlood flood-color="%230A091D" result="%230A091D" /%3E %3CfeFlood flood-color="red" result="flood1" /%3E %3CfeFlood flood-color="limegreen" result="flood2" /%3E %3CfeOffset in="SourceGraphic" dx="3" dy="0" result="off1a"/%3E %3CfeOffset in="SourceGraphic" dx="2" dy="0" result="off1b"/%3E %3CfeOffset in="SourceGraphic" dx="-3" dy="0" result="off2a"/%3E %3CfeOffset in="SourceGraphic" dx="-2" dy="0" result="off2b"/%3E %3CfeComposite in="flood1" in2="off1a" operator="in" result="comp1" /%3E %3CfeComposite in="flood2" in2="off2a" operator="in" result="comp2" /%3E %3CfeMerge x="0" width="100%25" result="merge1"%3E %3CfeMergeNode in = "black" /%3E %3CfeMergeNode in = "comp1" /%3E %3CfeMergeNode in = "off1b" /%3E %3Canimate attributeName="y" id = "y" dur ="4s" values = %27104px; 104px; 30px; 105px; 30px; 2px; 2px; 50px; 40px; 105px; 105px; 20px; 6ßpx; 40px; 104px; 40px; 70px; 10px; 30px; 104px; 102px%27 keyTimes = %270; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1%27 repeatCount = "indefinite" /%3E %3Canimate attributeName="height" id = "h" dur ="4s" values = %2710px; 0px; 10px; 30px; 50px; 0px; 10px; 0px; 0px; 0px; 10px; 50px; 40px; 0px; 0px; 0px; 40px; 30px; 10px; 0px; 50px%27 keyTimes = %270; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1%27 repeatCount = "indefinite" /%3E %3C/feMerge%3E %3CfeMerge x="0" width="100%25" y="60px" height="65px" result="merge2"%3E %3CfeMergeNode in = "black" /%3E %3CfeMergeNode in = "comp2" /%3E %3CfeMergeNode in = "off2b" /%3E %3Canimate attributeName="y" id = "y" dur ="4s" values = %27103px; 104px; 69px; 53px; 42px; 104px; 78px; 89px; 96px; 100px; 67px; 50px; 96px; 66px; 88px; 42px; 13px; 100px; 100px; 104px;%27 keyTimes = %270; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 0.548; 0.577; 0.613; 1%27 repeatCount = "indefinite" /%3E %3Canimate attributeName="height" id = "h" dur = "4s" values = %270px; 0px; 0px; 16px; 16px; 12px; 12px; 0px; 0px; 5px; 10px; 22px; 33px; 11px; 0px; 0px; 10px%27 keyTimes = %270; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 1%27 repeatCount = "indefinite" /%3E %3C/feMerge%3E %3CfeMerge%3E %3CfeMergeNode in="SourceGraphic" /%3E %3CfeMergeNode in="merge1" /%3E %3CfeMergeNode in="merge2" /%3E %3C/feMerge%3E %3C/filter%3E %3C/defs%3E%3Cg%3E %3Ctext x="0" y="100"%3E JavaScript %3C/text%3E%3C/g%3E%3C/svg%3E');
+  width: 200px;
+  height: 50px;
+  opacity: 0.5;
+  top: 135px;
+  left: 60px;
+}
+
+/* line 387, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.texter {
+  width: 1000px;
+  height: 100px;
+  background-color: #0A091D;
+  opacity: 0.5;
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600px" height="100px" viewBox="0 0 600 100"%3E%3Cstyle type="text/css"%3E%3C![CDATA[ text { filter: url(%23filter); fill: white; font-family: %27Share Tech Mono%27, sans-serif; font-size: 100px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }]]%3E%3C/style%3E %3Cdefs%3E %3Cfilter id="filter"%3E %3CfeFlood flood-color="%230A091D" result="%230A091D" /%3E %3CfeFlood flood-color="red" result="flood1" /%3E %3CfeFlood flood-color="limegreen" result="flood2" /%3E %3CfeOffset in="SourceGraphic" dx="3" dy="0" result="off1a"/%3E %3CfeOffset in="SourceGraphic" dx="2" dy="0" result="off1b"/%3E %3CfeOffset in="SourceGraphic" dx="-3" dy="0" result="off2a"/%3E %3CfeOffset in="SourceGraphic" dx="-2" dy="0" result="off2b"/%3E %3CfeComposite in="flood1" in2="off1a" operator="in" result="comp1" /%3E %3CfeComposite in="flood2" in2="off2a" operator="in" result="comp2" /%3E %3CfeMerge x="0" width="100%25" result="merge1"%3E %3CfeMergeNode in = "%230A091D" /%3E %3CfeMergeNode in = "comp1" /%3E %3CfeMergeNode in = "off1b" /%3E %3Canimate attributeName="y" id = "y" dur ="4s" values = %27104px; 104px; 30px; 105px; 30px; 2px; 2px; 50px; 40px; 105px; 105px; 20px; 6ßpx; 40px; 104px; 40px; 70px; 10px; 30px; 104px; 102px%27 keyTimes = %270; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1%27 repeatCount = "indefinite" /%3E %3Canimate attributeName="height" id = "h" dur ="4s" values = %2710px; 0px; 10px; 30px; 50px; 0px; 10px; 0px; 0px; 0px; 10px; 50px; 40px; 0px; 0px; 0px; 40px; 30px; 10px; 0px; 50px%27 keyTimes = %270; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1%27 repeatCount = "indefinite" /%3E %3C/feMerge%3E %3CfeMerge x="0" width="100%25" y="60px" height="65px" result="merge2"%3E %3CfeMergeNode in = "%230A091D" /%3E %3CfeMergeNode in = "comp2" /%3E %3CfeMergeNode in = "off2b" /%3E %3Canimate attributeName="y" id = "y" dur ="4s" values = %27103px; 104px; 69px; 53px; 42px; 104px; 78px; 89px; 96px; 100px; 67px; 50px; 96px; 66px; 88px; 42px; 13px; 100px; 100px; 104px;%27 keyTimes = %270; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 0.548; 0.577; 0.613; 1%27 repeatCount = "indefinite" /%3E %3Canimate attributeName="height" id = "h" dur = "4s" values = %270px; 0px; 0px; 16px; 16px; 12px; 12px; 0px; 0px; 5px; 10px; 22px; 33px; 11px; 0px; 0px; 10px%27 keyTimes = %270; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 1%27 repeatCount = "indefinite" /%3E %3C/feMerge%3E %3CfeMerge%3E %3CfeMergeNode in="SourceGraphic" /%3E %3CfeMergeNode in="merge1" /%3E %3CfeMergeNode in="merge2" /%3E %3C/feMerge%3E %3C/filter%3E %3C/defs%3E%3Cg%3E %3Ctext x="0" y="100"%3E coder %3C/text%3E%3C/g%3E%3C/svg%3E');
+}
+
+/* line 396, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.triangle-animarcion-box {
+  width: 450px;
+  height: 450px;
+}
+
+/* line 401, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section__second-conteiner {
+  position: relative;
+  padding: 50px 0 0 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 408, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section__second-portfolio {
+  margin-bottom: 74px;
+}
+
+/* line 410, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section__second-btn {
+  border: none;
+  background: #D02222;
+}
+
+/* line 414, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section__second-background-top {
+  position: absolute;
+  top: 68px;
+}
+
+/* line 417, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section__second-background-bottom {
+  position: absolute;
+  top: 1078px;
+  left: 8px;
+}
+
+/* line 424, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section__second-title-box {
+  margin-bottom: 50px;
+}
+
+/* line 426, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section__second-triangle-box {
+  position: absolute;
+  z-index: -3;
+  top: 287px;
+  left: -80px;
+}
+
+/* line 431, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section__second-triangle-box-v2 {
+  position: absolute;
+  z-index: -3;
+  top: 759px;
+  left: 649px;
+}
+
+/* line 436, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section__second-triangle-box-blue {
+  z-index: 3;
+}
+
+/* line 441, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.portfolio-card {
+  height: 418px;
+  padding: 15px;
+  margin: 0 auto 70px;
+}
+
+/* line 445, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.portfolio-card:last-child {
+  margin-bottom: 0px;
+}
+
+/* line 447, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.portfolio-img {
+  width: 100%;
+  height: 360px;
+  margin-bottom: 24px;
+}
+
+/* line 452, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.portfolio-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 456, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.portfolio-title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  color: #FFFFFF;
+}
+
+/* line 461, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.portfolio-more {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: right;
+  color: #D02222;
+}
+
+/* line 467, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.portfolio-pading {
+  padding-top: 55px;
+}
+
+/* line 476, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section-third__conteiner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 52px 0 124px 0;
+  overflow: hidden;
+  height: 1024px;
+}
+
+/* line 484, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section-third__top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 170px;
+}
+
+/* line 489, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section-third__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 41px;
+  color: #FFFFFF;
+  margin-bottom: 12px;
+}
+
+/* line 495, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section-third__arrow {
+  margin-left: 130px;
+}
+
+/* line 497, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section-third__description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+/* line 504, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section-third__skill {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  margin-bottom: 20px;
+}
+
+/* line 509, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section-third__card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* line 513, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section-third__card-html {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  padding: 45px 60px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+/* line 23, ../../Users/denis/Project/Project-my-site/sass/mixin.sass */
+.section-third__card-html:hover {
+  z-index: 10;
+}
+
+/* line 516, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section-third__img-html {
+  width: 100px;
+  height: 100px;
+  background: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 74 84" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M0.0801697 0.438721L6.7635 75.4387L36.7718 83.7721L66.8635 75.4304L73.5593 0.438721H0.0801697ZM59.0052 24.9679H23.8052L24.6468 34.3887H58.1677L55.6427 62.6304L36.8177 67.8471L36.776 67.8637L17.9343 62.6304L16.6427 48.1887H25.876L26.5302 55.5221L36.7802 58.2887H36.7843L47.0468 55.5179L48.1135 43.5887H16.2343L13.751 15.7721H59.8302L59.0052 24.9679Z" fill="white"/%3E%3C/svg%3E') no-repeat center center;
+}
+
+/* line 521, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section-third__img-css {
+  width: 100px;
+  height: 100px;
+  background: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M0 0H100L90.9048 89.8458L49.8905 100L9.10476 89.8417L0 0ZM81.381 18.3875L18.619 18.375L19.6333 29.3L67.8476 29.3083L66.6333 40.625H35.0143L36.1571 51.3458H65.5952L63.8524 66.025L49.9952 69.375L35.919 66L35.0238 57.2083H22.5952L23.9762 73.2708L50 80.3667L75.5857 73.9917L81.381 18.3917V18.3875Z" fill="white"/%3E%3C/svg%3E') no-repeat center center;
+}
+
+/* line 525, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section-third__img-java {
+  width: 100px;
+  height: 100px;
+}
+
+/* line 529, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section-third__img-react {
+  width: 100px;
+  height: 100px;
+  background: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 92 82" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M22.275 27.2958C11.4333 30.3083 4.33334 35.3208 4.33334 40.9999C4.33334 50.2083 22.9875 57.6666 46 57.6666C49.2208 57.6666 52.3583 57.5207 55.3667 57.2416M69.7167 54.7041C80.5625 51.6957 87.6667 46.6791 87.6667 40.9999C87.6667 31.7916 69.0125 24.3333 46 24.3333C42.7792 24.3333 39.6417 24.4791 36.625 24.7583" stroke="white" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/%3E%3Cpath d="M22.2709 54.6958C19.4542 65.5916 20.25 74.2499 25.1667 77.0833C33.1375 81.6874 48.9292 69.2624 60.4334 49.3333C62.0459 46.5416 63.4875 43.7541 64.75 41.0083M69.725 27.3166C72.5459 16.4166 71.7542 7.74994 66.8334 4.9166C58.8625 0.312437 43.0709 12.7374 31.5667 32.6666C29.9542 35.4583 28.5125 38.2499 27.2459 40.9958" stroke="white" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/%3E%3Cpath d="M46 13.6C37.9792 5.7167 30.0833 2.07503 25.1667 4.9167C17.1958 9.5167 20.0583 29.4042 31.5667 49.3334C33.175 52.125 34.8708 54.7667 36.6167 57.2334M45.9917 68.3917C54.0167 76.2792 61.9125 79.925 66.8333 77.0834C74.8042 72.4834 71.9417 52.5959 60.4333 32.6667C58.8708 29.9584 57.1833 27.3209 55.3833 24.7625M43.9167 44.6084C44.3907 44.8863 44.9151 45.0677 45.4595 45.1421C46.0039 45.2166 46.5577 45.1826 47.0889 45.0421C47.6202 44.9017 48.1184 44.6575 48.5549 44.3237C48.9914 43.9899 49.3576 43.5731 49.6324 43.0972C49.9071 42.6214 50.085 42.0958 50.1559 41.5509C50.2267 41.006 50.189 40.4525 50.045 39.9222C49.9011 39.3918 49.6536 38.8953 49.317 38.461C48.9803 38.0267 48.561 37.6633 48.0833 37.3917C47.1268 36.8479 45.9941 36.7045 44.9322 36.9927C43.8704 37.281 42.9657 37.9776 42.4155 38.9305C41.8654 39.8833 41.7145 41.0151 41.9957 42.0789C42.2769 43.1426 42.9675 44.0519 43.9167 44.6084Z" stroke="white" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/%3E%3C/svg%3E') no-repeat center center;
+}
+
+/* line 535, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section-third__card-css {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  padding: 45px 60px;
+  cursor: pointer;
+  left: 285px;
+  cursor: pointer;
+}
+
+/* line 23, ../../Users/denis/Project/Project-my-site/sass/mixin.sass */
+.section-third__card-css:hover {
+  z-index: 10;
+}
+
+/* line 542, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section-third__card-java {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  padding: 45px 60px;
+  cursor: pointer;
+  left: 570px;
+  z-index: 3;
+}
+
+/* line 23, ../../Users/denis/Project/Project-my-site/sass/mixin.sass */
+.section-third__card-java:hover {
+  z-index: 10;
+}
+
+/* line 547, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section-third__card-react {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  padding: 45px 60px;
+  cursor: pointer;
+  left: 800px;
+  z-index: 4;
+}
+
+/* line 23, ../../Users/denis/Project/Project-my-site/sass/mixin.sass */
+.section-third__card-react:hover {
+  z-index: 10;
+}
+
+/* line 551, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.section-third__coder {
+  width: 2351px;
+  height: 500px;
+  top: -50px;
+  left: 10px;
+}
+
+/* line 560, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.advantage-card {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  padding: 40px 0 0 30px;
+}
+
+/* line 569, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.advantage-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+/* line 575, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.advantage-text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #211E57;
+}
+
+/* line 584, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.advantage-img {
+  width: 72px;
+  height: 72px;
+}
+
+/* line 587, ../../Users/denis/Project/Project-my-site/sass/style.sass */
+.advantage-img-communication {
+  background: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"%3E%3Crect x="3.05176e-05" width="72" height="72" fill="url(%23pattern0)"/%3E%3Cdefs%3E%3Cpattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1"%3E%3Cuse xlink:href="%23image0_38_5" transform="scale(0.0138889)"/%3E%3C/pattern%3E%3Cimage id="image0_38_5" width="72" height="72" xlink:href="data:image/png;base64,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"/%3E%3C/defs%3E%3C/svg%3E') no-repeat center center;
+}
+
+/*# sourceMappingURL=style.css.map */
